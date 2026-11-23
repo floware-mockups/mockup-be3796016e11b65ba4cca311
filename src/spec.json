@@ -31,7 +31,8 @@
         "Sito",
         "Tecnico",
         "Scadenza",
-        "Stato"
+        "Stato",
+        "Email ditta"
       ],
       "rows": [
         [
@@ -40,7 +41,8 @@
           "Impianto Lumo",
           "Neri",
           "18/06/2026",
-          "Avviso da inviare"
+          "Avviso da inviare",
+          "Da inserire"
         ],
         [
           "RFT-238",
@@ -48,7 +50,8 @@
           "Centro Vela",
           "Riva",
           "22/06/2026",
-          "In scadenza"
+          "In scadenza",
+          "Da inserire"
         ],
         [
           "RFT-233",
@@ -56,7 +59,8 @@
           "Area Nubi",
           "Soli",
           "27/06/2026",
-          "Controllo da fare"
+          "Controllo da fare",
+          "Da inserire"
         ],
         [
           "RFT-229",
@@ -64,7 +68,8 @@
           "Impianto Brina",
           "Timo",
           "04/07/2026",
-          "Da verificare"
+          "Da verificare",
+          "Da inserire"
         ]
       ],
       "form": []
@@ -89,7 +94,8 @@
         "Sito",
         "Tecnico",
         "Scadenza",
-        "Stato"
+        "Stato",
+        "Email ditta"
       ],
       "rows": [
         [
@@ -98,7 +104,8 @@
           "Impianto Lumo",
           "Neri",
           "18/06/2026",
-          "Avviso da inviare"
+          "Avviso da inviare",
+          "Da inserire"
         ],
         [
           "RFT-238",
@@ -106,7 +113,8 @@
           "Centro Vela",
           "Riva",
           "22/06/2026",
-          "In scadenza"
+          "In scadenza",
+          "Da inserire"
         ],
         [
           "RFT-233",
@@ -114,7 +122,8 @@
           "Area Nubi",
           "Soli",
           "27/06/2026",
-          "Controllo da fare"
+          "Controllo da fare",
+          "Da inserire"
         ],
         [
           "RFT-229",
@@ -122,7 +131,8 @@
           "Impianto Brina",
           "Timo",
           "04/07/2026",
-          "Da verificare"
+          "Da verificare",
+          "Da inserire"
         ],
         [
           "RFT-224",
@@ -130,7 +140,8 @@
           "Sito Quarzo",
           "Neri",
           "15/07/2026",
-          "In corso"
+          "In corso",
+          "Da inserire"
         ],
         [
           "RFT-218",
@@ -138,7 +149,8 @@
           "Impianto Loto",
           "Riva",
           "20/07/2026",
-          "In corso"
+          "In corso",
+          "Da inserire"
         ],
         [
           "RFT-213",
@@ -146,7 +158,8 @@
           "Area Cedro",
           "Soli",
           "02/08/2026",
-          "In corso"
+          "In corso",
+          "Da inserire"
         ],
         [
           "RFT-207",
@@ -154,7 +167,8 @@
           "Centro Mirto",
           "Timo",
           "12/08/2026",
-          "In corso"
+          "In corso",
+          "Da inserire"
         ]
       ],
       "form": [
@@ -163,7 +177,8 @@
         "Sito",
         "Tecnico",
         "Scadenza",
-        "Stato"
+        "Stato",
+        "Email ditta"
       ]
     },
     {
@@ -190,7 +205,8 @@
         "Sito",
         "Tecnico",
         "Scadenza",
-        "Stato"
+        "Stato",
+        "Email ditta"
       ],
       "rows": [
         [
@@ -199,7 +215,8 @@
           "Impianto Lumo",
           "Neri",
           "18/06/2026",
-          "Preparare comunicazione"
+          "Preparare comunicazione",
+          "Da inserire"
         ],
         [
           "RFT-238",
@@ -207,7 +224,8 @@
           "Centro Vela",
           "Riva",
           "22/06/2026",
-          "Verificare rinnovo"
+          "Verificare rinnovo",
+          "Da inserire"
         ],
         [
           "RFT-233",
@@ -215,7 +233,8 @@
           "Area Nubi",
           "Soli",
           "27/06/2026",
-          "Controllo da fare"
+          "Controllo da fare",
+          "Da inserire"
         ],
         [
           "RFT-229",
@@ -223,7 +242,8 @@
           "Impianto Brina",
           "Timo",
           "04/07/2026",
-          "Verificare rinnovo"
+          "Verificare rinnovo",
+          "Da inserire"
         ]
       ],
       "form": [
@@ -232,12 +252,23 @@
         "Sito",
         "Tecnico",
         "Scadenza",
-        "Stato"
+        "Stato",
+        "Email ditta"
       ]
     }
   ],
   "theme": {
     "palette": "verde-oliva",
     "fonts": "moderno"
-  }
+  },
+  "custom": [
+    {
+      "name": "GraficoPraticheScadenze",
+      "title": "Pratiche e segnalazioni",
+      "description": "Grafico dinamico con criteri di conteggio e data di riferimento.",
+      "role": "section",
+      "pageId": "panoramica",
+      "position": "top"
+    }
+  ]
 }
