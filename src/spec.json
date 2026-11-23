@@ -1,0 +1,243 @@
+{
+  "title": "Scadenze di autorizzazioni e garanzie",
+  "description": "Registro inventato per controllare le scadenze delle autorizzazioni, delle prescrizioni e delle garanzie. Evidenzia gli elementi in scadenza entro 30 giorni e quelli da comunicare alla ditta.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Panoramica",
+      "description": "Controlla le pratiche aperte, le scadenze vicine e le attività da chiudere.",
+      "metrics": [
+        {
+          "label": "Pratiche aperte",
+          "value": "12"
+        },
+        {
+          "label": "Controlli del mese",
+          "value": "5"
+        },
+        {
+          "label": "Autorizzazioni in scadenza",
+          "value": "3"
+        },
+        {
+          "label": "Segnalazioni da chiudere",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Pratica",
+        "Tipo",
+        "Sito",
+        "Tecnico",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "RFT-241",
+          "Autorizzazione",
+          "Impianto Lumo",
+          "Neri",
+          "18/06/2026",
+          "Avviso da inviare"
+        ],
+        [
+          "RFT-238",
+          "Polizza fideiussoria",
+          "Centro Vela",
+          "Riva",
+          "22/06/2026",
+          "In scadenza"
+        ],
+        [
+          "RFT-233",
+          "Prescrizione",
+          "Area Nubi",
+          "Soli",
+          "27/06/2026",
+          "Controllo da fare"
+        ],
+        [
+          "RFT-229",
+          "Polizza RCI",
+          "Impianto Brina",
+          "Timo",
+          "04/07/2026",
+          "Da verificare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-scadenze",
+      "title": "Registro scadenze",
+      "description": "Cerca le pratiche e filtra per stato. Gli elementi entro 30 giorni sono da verificare e, se necessario, comunicare alla ditta.",
+      "metrics": [
+        {
+          "label": "Entro 30 giorni",
+          "value": "3"
+        },
+        {
+          "label": "Avvisi da inviare",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Pratica",
+        "Tipo",
+        "Sito",
+        "Tecnico",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "RFT-241",
+          "Autorizzazione",
+          "Impianto Lumo",
+          "Neri",
+          "18/06/2026",
+          "Avviso da inviare"
+        ],
+        [
+          "RFT-238",
+          "Polizza fideiussoria",
+          "Centro Vela",
+          "Riva",
+          "22/06/2026",
+          "In scadenza"
+        ],
+        [
+          "RFT-233",
+          "Prescrizione",
+          "Area Nubi",
+          "Soli",
+          "27/06/2026",
+          "Controllo da fare"
+        ],
+        [
+          "RFT-229",
+          "Polizza RCI",
+          "Impianto Brina",
+          "Timo",
+          "04/07/2026",
+          "Da verificare"
+        ],
+        [
+          "RFT-224",
+          "Autorizzazione",
+          "Sito Quarzo",
+          "Neri",
+          "15/07/2026",
+          "In corso"
+        ],
+        [
+          "RFT-218",
+          "Prescrizione",
+          "Impianto Loto",
+          "Riva",
+          "20/07/2026",
+          "In corso"
+        ],
+        [
+          "RFT-213",
+          "Polizza fideiussoria",
+          "Area Cedro",
+          "Soli",
+          "02/08/2026",
+          "In corso"
+        ],
+        [
+          "RFT-207",
+          "Autorizzazione",
+          "Centro Mirto",
+          "Timo",
+          "12/08/2026",
+          "In corso"
+        ]
+      ],
+      "form": [
+        "Pratica",
+        "Tipo",
+        "Sito",
+        "Tecnico",
+        "Scadenza",
+        "Stato"
+      ]
+    },
+    {
+      "id": "controlli-e-avvisi",
+      "title": "Controlli e avvisi",
+      "description": "Tieni traccia dei controlli e delle comunicazioni da fare prima della scadenza. Segna l’esito e chiudi le attività concluse.",
+      "metrics": [
+        {
+          "label": "Controlli da fare",
+          "value": "2"
+        },
+        {
+          "label": "Comunicazioni in attesa",
+          "value": "1"
+        },
+        {
+          "label": "Attività chiuse",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Pratica",
+        "Tipo",
+        "Sito",
+        "Tecnico",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "RFT-241",
+          "Autorizzazione",
+          "Impianto Lumo",
+          "Neri",
+          "18/06/2026",
+          "Preparare comunicazione"
+        ],
+        [
+          "RFT-238",
+          "Polizza fideiussoria",
+          "Centro Vela",
+          "Riva",
+          "22/06/2026",
+          "Verificare rinnovo"
+        ],
+        [
+          "RFT-233",
+          "Prescrizione",
+          "Area Nubi",
+          "Soli",
+          "27/06/2026",
+          "Controllo da fare"
+        ],
+        [
+          "RFT-229",
+          "Polizza RCI",
+          "Impianto Brina",
+          "Timo",
+          "04/07/2026",
+          "Verificare rinnovo"
+        ]
+      ],
+      "form": [
+        "Pratica",
+        "Tipo",
+        "Sito",
+        "Tecnico",
+        "Scadenza",
+        "Stato"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "verde-oliva",
+    "fonts": "moderno"
+  }
+}
